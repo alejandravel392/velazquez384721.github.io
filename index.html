@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendizaje y Autismo</title>
+    <link rel="stylesheet" href="tipos.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-content">
+        <img src="https://cdn-icons-png.flaticon.com/512/3965/3965065.png" class="logo" alt="Logo">
+        <h1 class="titulo" style="text-shadow: 5px 5px 5px #0852a7;">El aprendizaje y autismo</h1>
+    </div>
+</header>
+
+
+
+<div class="botones-container">
+    <button class="tab-btn" onclick="mostrar('aprendizaje')">Aprendizaje</button>
+    <button class="tab-btn" onclick="mostrar('autismo')">Autismo</button>
+    <button class="tab-btn" onclick="mostrar('formulario')">Formulario</button>
+</div>
+
+<div id="aprendizaje" class="contenido-tab">
+
+    <h2 style="color: #78A2D2 ;">Aprendizaje</h2>
+    <p>
+        La educación es un proceso fundamental en el desarrollo de las personas, pues permite adquirir conocimientos, habilidades, valores y formas de comprender el mundo. A lo largo del tiempo, este proceso ha evolucionado para adaptarse a las necesidades sociales, culturales y tecnológicas de cada época. Hoy en día, la educación no se limita únicamente al aprendizaje dentro de un aula, sino que abarca una amplia variedad de enfoques y métodos que buscan atender las diferentes formas en que las personas aprenden.<br>Existen diversos tipos de educación, cada uno con características, objetivos y contextos específicos. Entre los más conocidos se encuentran los siguientes:
+    </p>
+
+    <div class="edu-container">
+
+        <div class="subtemas-menu">
+            <button class="subtema-btn" onclick="mostrarSubtema('visual')">Aprendizaje Visual</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('auditivo')">Aprendizaje Auditivo</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('kinestesico')">Aprendizaje Kinestésico</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('lectoescrito')">Aprendizaje Lecto–Escrito</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('experiencia')">Aprendizaje Basado en la Experiencia</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('logico')">Aprendizaje Lógico-Matemático</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('social')">Aprendizaje Social</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('individual')">Aprendizaje Individual</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('cognitivo')">Aprendizaje Cognitivo</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('constructivista')">Aprendizaje Constructivista</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('significativo')">Aprendizaje Significativo</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('memoristico')">Aprendizaje Memorístico</button>
+        </div>
+
+        <div class="contenido-subtema">
+
+            <div id="visual" class="subtema-contenido">
+                <img src="https://math3logic.com/wp-content/uploads/2023/08/visual-min-1.png" alt="Aprendizaje Visual" style="width: 1000px; height: 500px;">
+                <p>El aprendizaje visual se basa en la interpretación de información mediante elementos 
+                    como imágenes, diagramas, mapas conceptuales y gráficos. Este tipo de aprendizaje 
+                    permite que los estudiantes comprendan mejor ideas complejas mediante representaciones 
+                    visuales que simplifican y estructuran la información.</p>
+            </div>
+
+            <div id="auditivo" class="subtema-contenido" style="display:none;">
+                <img src="https://math3logic.com/wp-content/uploads/2023/08/Auditivo-min.png" alt="Aprendizaje Auditivo" style="width: 1000px; height: 500px;">
+                <p>Este aprendizaje se fortalece a través de la escucha. Los estudiantes auditivos 
+                    comprenden mejor mediante explicaciones verbales, debates, grabaciones, música 
+                    y discusiones. Les resulta más fácil recordar la información si la escuchan en lugar 
+                    de leerla.</p>
+            </div>
+
+            <div id="kinestesico" class="subtema-contenido" style="display:none;">
+                <img src="https://math3logic.com/wp-content/uploads/2023/08/kinestesico-min.png" alt="Aprendizaje Kinestésico" style="width: 1000px; height: 500px;">
+                <p>Se basa en la experiencia directa y el movimiento corporal. Los estudiantes kinestésicos 
+                    aprenden más efectivamente cuando realizan actividades prácticas, experimentos, 
+                    dramatizaciones o manipulan objetos. Necesitan interactuar físicamente con el contenido.</p>
+            </div>
+
+            <div id="lectoescrito" class="subtema-contenido" style="display:none;">
+                <img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/children-writing_ver_1.jpg" alt="Aprendizaje Lecto–Escrito" style="width: 1000px; height: 500px;">
+                <p>El aprendizaje lecto–escrito se enfoca en la adquisición de información mediante la lectura y la escritura. Los estudiantes que lo prefieren suelen tomar apuntes, subrayar textos y realizar resúmenes para comprender mejor los temas. Para ellos, la mejor forma de aprender es leyendo textos detallados, escribiendo ideas o consultando fuentes impresas o digitales.
+                    Este tipo de aprendizaje se potencia con cuadernos, resúmenes, esquemas escritos, documentos y cualquier material que permita revisar la información de manera textual.</p>
+            </div>
+
+            <div id="experiencia" class="subtema-contenido" style="display:none;">
+                <img src="https://blog.vicensvives.com/wp-content/uploads/2019/01/ABP.png" alt="Aprendizaje Basado en la Experiencia" style="width: 1000px; height: 500px;">
+                <p>El aprendizaje basado en la experiencia ocurre cuando la persona aprende mediante vivencias reales o situaciones prácticas. Este aprendizaje es muy significativo porque implica enfrentar problemas, tomar decisiones y reflexionar sobre lo hecho. Es común en prácticas profesionales, actividades de laboratorio o experiencias de campo.
+                    El estudiante aprende no solo por la acción, sino también por analizar lo que sucedió, identificar aciertos y errores, y aplicar ese conocimiento en futuras situaciones.</p>
+            </div>
+
+            <div id="logico" class="subtema-contenido" style="display:none;">
+                <img src="https://lucaedu.com/wp-content/uploads/2022/03/inteligencia-logica-matematica-1.jpg" alt="Aprendizaje Lógico-Matemático" style="width: 1000px; height: 500px;">
+                <p> Este tipo de aprendizaje se basa en el razonamiento, la lógica y el análisis. 
+                    Los estudiantes que predominan en este estilo resuelven problemas mediante métodos 
+                    organizados, secuencias, patrones y estructuras, comprendiendo mejor la información 
+                    si está clasificada y ordenada.</p>
+            </div>
+
+            <div id="social" class="subtema-contenido" style="display:none;">
+                <img src="https://pymstatic.com/236/conversions/teoria-aprendizaje-social-bandura-wide.jpg" alt="Aprendizaje Social" style="width: 1000px; height: 500px;">
+                <p>También llamado aprendizaje interpersonal, se desarrolla mejor en interacción con otros. 
+                    Los estudiantes sociales aprenden mediante actividades grupales, debates, trabajo en 
+                    equipo y proyectos colaborativos, ya que la comunicación les permite reforzar conceptos.</p>
+            </div>
+
+            <div id="individual" class="subtema-contenido" style="display:none;">
+                <img src="https://lucaedu.com/wp-content/uploads/2021/12/Aprendizaje-individual.jpg" alt="Aprendizaje Individual"style="width: 1000px; height: 500px;">
+                <p>Este tipo de aprendizaje se da cuando el estudiante trabaja mejor solo. Suele necesitar 
+                    un ambiente tranquilo y organizado, donde pueda reflexionar, investigar y estudiar a 
+                    su propio ritmo sin distracciones externas.</p>
+            </div>
+
+            <div id="cognitivo" class="subtema-contenido" style="display:none;">
+                <img src="https://cdn.aicad.es/asset/img/3/que-es-ser-cognitivo-100.jpeg" alt="Aprendizaje Cognitivo" style="width: 1000px; height: 500px;">
+                <p>El aprendizaje cognitivo se enfoca en los procesos mentales que permiten comprender, organizar y usar la información. Considera que aprender no solo es repetir datos, sino analizarlos, relacionarlos y darles sentido. La atención, la memoria y el razonamiento desempeñan un papel fundamental.
+                    Este aprendizaje se favorece mediante actividades que exijan reflexión, resolución de problemas, análisis de textos y elaboración de mapas conceptuales.</p>
+            </div>
+
+            <div id="constructivista" class="subtema-contenido" style="display:none;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/La_Tecnolog%C3%ADa_y_la_Educaci%C3%B3n.jpg" alt="Aprendizaje Constructivista" style="width: 1000px; height: 500px;">
+                <p>El aprendizaje constructivista propone que las personas construyen nuevos conocimientos relacionándolos con experiencias previas. El estudiante es un participante activo que experimenta, investiga y reflexiona para formar su propio entendimiento.
+                    Por ello, este aprendizaje se estimula con proyectos, investigaciones, actividades prácticas, descubrimientos guiados y experiencias que permitan aplicar la teoría en situaciones reales.</p>
+            </div>
+
+            <div id="significativo" class="subtema-contenido" style="display:none;">
+                <img src="https://examtimeassets.s3.amazonaws.com/uploads/media/image/17693170/desktop_32699a6b-793b-4750-a607-c2a7ddc6c682.jpg" alt="Aprendizaje Significativo" style="width: 1000px; height: 500px;">
+                <p>El aprendizaje significativo ocurre cuando la información nueva se integra de manera coherente con el conocimiento que ya se posee. Esto permite una comprensión profunda y duradera, pues el contenido adquiere sentido para el estudiante.
+                    Para que este aprendizaje se dé, es necesario conectar conceptos nuevos con experiencias previas, emplear ejemplos concretos, aclarar dudas y utilizar organizadores gráficos que permitan visualizar relaciones entre ideas.</p>
+            </div>
+
+            <div id="memoristico" class="subtema-contenido" style="display:none;">
+                <img src="https://www.estudiantes.info/images/memorizar-mejor-estudiantes.jpg" alt="Aprendizaje Memorístico" style="width: 1000px; height: 500px;">
+                <p>El aprendizaje memorístico consiste en repetir información sin comprenderla completamente. Aunque puede ser útil para recordar datos rápidos, como fechas o fórmulas, es un aprendizaje poco duradero y poco profundo.
+                   Generalmente se utiliza para estudiar definiciones, listas, tablas o información que necesita ser recordada con exactitud, aunque su efectividad disminuye si no se relaciona con entendimiento real</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="autismo" class="contenido-tab" style="display:none;">
+    <h2 style="color: #78A2D2 ;">Autismo</h2>
+    <p>El autismo, conocido como Trastorno del Espectro Autista (TEA), es una condición del neurodesarrollo que afecta principalmente la comunicación, la interacción social y el comportamiento. Se le llama "espectro" porque cada persona puede presentar características muy diferentes en cuanto a la forma de comunicarse, aprender, comportarse y relacionarse con los demás.
+    <br>Los síntomas del autismo se agrupan en dos áreas principales: dificultades en la comunicación e interacción social, y la presencia de comportamientos repetitivos o intereses restringidos. Las dificultades en la interacción social pueden incluir problemas para mantener el contacto visual, entender señales sociales, hacer amigos o responder a su nombre. Los comportamientos repetitivos pueden manifestarse en movimientos como aleteo de manos o balanceos, la necesidad de seguir rutinas estrictas, o una fijación intensa en objetos o temas específicos.
+    <ul><b> Dificultades en la comunicación e interacción social </b>
+        <li>Contacto visual: Evitar o tener contacto visual limitado. </li>
+        <li>Expresión: Falta de expresión facial. </li>
+        <li>Interacción: Dificultad para hacer o mantener amistades, no compartir intereses con otros o no entender las emociones de los demás. </li>
+        <li>Lenguaje y gestos: Retrasos en el habla, uso de gestos inusuales, o no usar gestos como señalar con fines comunicativos. </li>
+        <li>Respuesta: No responder cuando se les llama por su nombre o no responder a instrucciones simples. </li>
+        <li>Lenguaje: Retraso en las destrezas del lenguaje o pérdida de habilidades de lenguaje. </li>
+        <li>Conversaciones: Dificultad para comenzar o mantener una conversación. </li>
+    </ul>
+    <ul><b>Comportamientos repetitivos e intereses restringidos </b>
+        <li>Movimientos: Realizar movimientos repetitivos como aleteo de manos, balanceo, o caminar de un lado a otro. </li>
+        <li>Rutinas: Insistir en rutinas familiares y sentirse muy molesto por pequeños cambios. </li>
+        <li>Objetos: Un apego o interés inusual en ciertos objetos. </li>
+        <li>Repetición: Repetir palabras o frases ("ecolalia"), a veces sin un uso claro. </li>
+    </ul>
+    <br> Los tipos de autismo se clasifican según el nivel de apoyo que la persona requiere, así como por la intensidad de las habilidades y desafíos que presenta. Entre ellos se encuentran lossiguientes</p>
+    <div class="edu-container">
+       
+        <div class="subtemas-menu">
+            <button class="subtema-btn" onclick="mostrarSubtema('autismo-leve')">Autismo Leve</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('autismo-moderado')">Autismo Moderado</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('autismo-severo')">Autismo Severo</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('asperger')">Síndrome de Asperger</button>
+            <button class="subtema-btn" onclick="mostrarSubtema('desintegrativo')">Trastorno Desintegrativo Infantil</button>
+
+        </div>
+
+        <div class="contenido-subtema">
+
+            <div id="autismo-leve" class="subtema-contenido">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/msW4e-qnFjk?si=r-_0CbkyHw7RjSSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 1000px; height: 500px;"></iframe>
+                <p>El autismo leve, también conocido como TEA nivel 1, se caracteriza por dificultades sutiles en la comunicación social, la interpretación de señales sociales y la flexibilidad del comportamiento. Las personas pueden llevar una vida relativamente independiente, pero pueden experimentar problemas para comprender ironías, mantener conversaciones fluidas o adaptarse a cambios inesperados. Suelen tener intereses muy específicos y pueden presentar hipersensibilidad sensorial.</p>
+            </div>
+
+            <div id="autismo-moderado" class="subtema-contenido">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I51r2UMoE54?si=MVBUdOSP_Q-VJYe1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 1000px; height: 500px;"></iframe> 
+                <p>El autismo moderado, o TEA nivel 2, implica desafíos más notables en la comunicación, ya sea con lenguaje limitado o dificultades para mantener interacciones sociales. Las personas requieren apoyo frecuente para organizar actividades, regular emociones y adaptarse a la rutina. También pueden presentar conductas repetitivas más marcadas y dificultades para comprender normas sociales básicas, lo que puede afectar su autonomía.</p>
+
+                </div>
+
+            <div id="autismo-severo" class="subtema-contenido">
+                <<iframe width="560" height="315" src="https://www.youtube.com/embed/0hyQUXmElvw?si=8GwPLKZI2GI-ksGH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 1000px; height: 500px;"></iframe>
+                <p>El autismo severo, o TEA nivel 3, se caracteriza por una afectación significativa en la comunicación verbal y no verbal, así como en la conducta adaptativa. Las personas suelen necesitar apoyo constante para realizar actividades diarias y pueden presentar comportamientos repetitivos intensos, crisis sensoriales o dificultades para procesar el entorno. En muchos casos, requieren acompañamiento especializado a largo plazo.</p>
+            </div>
+
+            <div id="asperger" class="subtema-contenido" style="display:none;">
+                <<iframe width="560" height="315" src="https://www.youtube.com/embed/zG3SqXuN-c8?si=tkrIA5aaJ3iz6l6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 1000px; height: 500px;"></iframe> 
+                <p>Aunque actualmente se incluye dentro del espectro autista, el Síndrome de Asperger se distingue por un desarrollo intelectual y del lenguaje dentro del rango esperado, pero con dificultades importantes en la interacción social y en la comprensión de reglas sociales. Las personas suelen tener intereses profundos y específicos, estilos de comunicación peculiares y sensibilidad ante estímulos sensoriales, manteniendo un alto grado de autonomía.</p>
+            </div>
+
+            <div id="desintegrativo" class="subtema-contenido" style="display:none;">
+                <<iframe width="560" height="315" src="https://www.youtube.com/embed/acpHLxowrLI?si=p9QpaHcr_bcV0sjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 1000px; height: 500px;"></iframe>
+                <p>Este tipo de autismo, ahora integrado dentro del TEA, se caracteriza por un desarrollo aparentemente normal durante los primeros años de vida, seguido de una pérdida repentina y significativa de habilidades previamente adquiridas, como el lenguaje, el control motor o la interacción social. Es una forma poco común y requiere un abordaje especializado debido a la brusca regresión en el desarrollo.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="formulario" class="contenido-tab" style="display:none;">
+
+    <h2 style="color:#78A2D2;">Formulario de Evaluación</h2>
+
+    <form id="formEvaluacion">
+
+       
+        <label><b>Nombre:</b></label><br>
+        <input type="text" name="nombre" required><br><br>
+
+        <label><b>Correo electrónico:</b></label><br>
+        <input type="email" name="correo" required><br><br>
+
+        <label><b>Edad:</b></label><br>
+        <input type="number" name="edad" min="1" required><br><br>
+
+        <hr><br>
+
+       
+        <p><b>1. ¿Qué representa la educación en el desarrollo de las personas?</b></p>
+        <label><input type="radio" name="p1" value="a"> a) Un proceso limitado solo al aula</label><br>
+        <label><input type="radio" name="p1" value="b"> b) Un proceso que solo enseña valores</label><br>
+        <label><input type="radio" name="p1" value="c"> c) Un proceso que permite adquirir conocimientos, habilidades y comprender el mundo</label><br>
+        <label><input type="radio" name="p1" value="d"> d) Un sistema rígido sin cambios</label><br><br>
+
+        
+        <p><b>2. ¿Qué caracteriza al aprendizaje visual?</b></p>
+        <label><input type="radio" name="p2" value="a"> a) Uso de actividades físicas y movimiento</label><br>
+        <label><input type="radio" name="p2" value="b"> b) Interpretación de información mediante imágenes y diagramas</label><br>
+        <label><input type="radio" name="p2" value="c"> c) Interacción constante con otras personas</label><br>
+        <label><input type="radio" name="p2" value="d"> d) Memorización repetitiva de textos</label><br><br>
+
+      
+        <p><b>3. El aprendizaje auditivo se fortalece principalmente mediante:</b></p>
+        <label><input type="radio" name="p3" value="a"> a) La lectura silenciosa</label><br>
+        <label><input type="radio" name="p3" value="b"> b) La escucha de explicaciones, debates o grabaciones</label><br>
+        <label><input type="radio" name="p3" value="c"> c) El uso de materiales escritos</label><br>
+        <label><input type="radio" name="p3" value="d"> d) La resolución de problemas matemáticos</label><br><br>
+
+        
+        <p><b>4. El aprendizaje kinestésico se caracteriza por:</b></p>
+        <label><input type="radio" name="p4" value="a"> a) Aprender mediante la lectura</label><br>
+        <label><input type="radio" name="p4" value="b"> b) Escuchar explicaciones largas</label><br>
+        <label><input type="radio" name="p4" value="c"> c) Realizar actividades prácticas y movimiento corporal</label><br>
+        <label><input type="radio" name="p4" value="d"> d) Memorizar textos</label><br><br>
+
+    
+        <p><b>5. ¿Cuál es la característica principal del aprendizaje lecto–escrito?</b></p>
+        <label><input type="radio" name="p5" value="a"> a) El análisis lógico de problemas</label><br>
+        <label><input type="radio" name="p5" value="b"> b) La interacción social</label><br>
+        <label><input type="radio" name="p5" value="c"> c) La lectura y escritura como principal forma de aprender</label><br>
+        <label><input type="radio" name="p5" value="d"> d) El uso exclusivo de experimentos</label><br><br>
+
+      
+        <p><b>6. El aprendizaje basado en la experiencia implica:</b></p>
+        <label><input type="radio" name="p6" value="a"> a) Repetir información sin comprenderla</label><br>
+        <label><input type="radio" name="p6" value="b"> b) Enfrentar situaciones reales y reflexionar sobre ellas</label><br>
+        <label><input type="radio" name="p6" value="c"> c) Solo observar imágenes</label><br>
+        <label><input type="radio" name="p6" value="d"> d) Leer textos extensos</label><br><br>
+
+       
+        <p><b>7. ¿Qué caracteriza al aprendizaje lógico–matemático?</b></p>
+        <label><input type="radio" name="p7" value="a"> a) El uso de emociones para decidir</label><br>
+        <label><input type="radio" name="p7" value="b"> b) El razonamiento, análisis y organización</label><br>
+        <label><input type="radio" name="p7" value="c"> c) El trabajo exclusivo en grupo</label><br>
+        <label><input type="radio" name="p7" value="d"> d) La expresión artística</label><br><br>
+
+        
+        <p><b>8. El aprendizaje social se desarrolla mejor mediante:</b></p>
+        <label><input type="radio" name="p8" value="a"> a) Trabajo en equipo, debates y actividades grupales</label><br>
+        <label><input type="radio" name="p8" value="b"> b) Estudio individual</label><br>
+        <label><input type="radio" name="p8" value="c"> c) Movimientos repetitivos</label><br>
+        <label><input type="radio" name="p8" value="d"> d) Lectura silenciosa</label><br><br>
+
+        
+        <p><b>9. El aprendizaje individual se caracteriza por:</b></p>
+        <label><input type="radio" name="p9" value="a"> a) Necesidad de estudiar solo y a su propio ritmo</label><br>
+        <label><input type="radio" name="p9" value="b"> b) Interacción constante</label><br>
+        <label><input type="radio" name="p9" value="c"> c) Uso de materiales visuales</label><br>
+        <label><input type="radio" name="p9" value="d"> d) Actividades físicas intensas</label><br><br>
+
+        
+        <p><b>10. El aprendizaje memorístico consiste en:</b></p>
+        <label><input type="radio" name="p10" value="a"> a) Comprender profundamente la información</label><br>
+        <label><input type="radio" name="p10" value="b"> b) Repetir datos sin entenderlos completamente</label><br>
+        <label><input type="radio" name="p10" value="c"> c) Resolver problemas mediante análisis</label><br>
+        <label><input type="radio" name="p10" value="d"> d) Experimentar en situaciones reales</label><br><br>
+
+      
+        <p><b>11. ¿Qué es el Trastorno del Espectro Autista (TEA)?</b></p>
+        <label><input type="radio" name="p11" value="a"> a) Una condición física que afecta solo la movilidad</label><br>
+        <label><input type="radio" name="p11" value="b"> b) Una condición del neurodesarrollo que afecta la comunicación, interacción y comportamiento</label><br>
+        <label><input type="radio" name="p11" value="c"> c) Un trastorno temporal causado por estrés</label><br>
+        <label><input type="radio" name="p11" value="d"> d) Una discapacidad exclusivamente intelectual</label><br><br>
+
+        <p><b>12. ¿Cuál de los siguientes es un síntoma común del TEA?</b></p>
+        <label><input type="radio" name="p12" value="a"> a) Facilidad para hacer amigos</label><br>
+        <label><input type="radio" name="p12" value="b"> b) Comprender rápidamente señales sociales</label><br>
+        <label><input type="radio" name="p12" value="c"> c) Movimientos repetitivos como aleteo o balanceo</label><br>
+        <label><input type="radio" name="p12" value="d"> d) Alta flexibilidad ante cambios de rutina</label><br><br>
+
+       
+        <p><b>13. El autismo leve (TEA nivel 1) se caracteriza por:</b></p>
+        <label><input type="radio" name="p13" value="a"> a) Afectación severa del lenguaje</label><br>
+        <label><input type="radio" name="p13" value="b"> b) Necesidad de apoyo constante</label><br>
+        <label><input type="radio" name="p13" value="c"> c) Dificultades sutiles en comunicación social y flexibilidad de comportamiento</label><br>
+        <label><input type="radio" name="p13" value="d"> d) Pérdida total de habilidades motoras</label><br><br>
+
+       
+        <p><b>14. El autismo moderado (TEA nivel 2) implica:</b></p>
+        <label><input type="radio" name="p14" value="a"> a) Desarrollo completamente típico</label><br>
+        <label><input type="radio" name="p14" value="b"> b) Desafíos más notorios en comunicación y necesidad de apoyo frecuente</label><br>
+        <label><input type="radio" name="p14" value="c"> c) Autonomía total sin ayuda</label><br>
+        <label><input type="radio" name="p14" value="d"> d) Ningún comportamiento repetitivo</label><br><br>
+
+       
+        <p><b>15. El autismo severo (TEA nivel 3) se caracteriza por:</b></p>
+        <label><input type="radio" name="p15" value="a"> a) Independencia total</label><br>
+        <label><input type="radio" name="p15" value="b"> b) Comunicación casi intacta</label><br>
+        <label><input type="radio" name="p15" value="c"> c) Necesidad de apoyo constante y afectación significativa</label><br>
+        <label><input type="radio" name="p15" value="d"> d) Ausencia de conductas repetitivas</label><br><br>
+
+        
+        <p><b>16. El Síndrome de Asperger se distingue por:</b></p>
+        <label><input type="radio" name="p16" value="a"> a) Retraso profundo del lenguaje</label><br>
+        <label><input type="radio" name="p16" value="b"> b) Desarrollo intelectual y del lenguaje dentro del rango esperado, con dificultades sociales</label><br>
+        <label><input type="radio" name="p16" value="c"> c) Pérdida repentina de habilidades</label><br>
+        <label><input type="radio" name="p16" value="d"> d) Ausencia total de interacción social</label><br><br>
+
+        <p><b>17. El autismo regresivo se caracteriza por:</b></p>
+        <label><input type="radio" name="p17" value="a"> a) Desarrollo estable sin cambios</label><br>
+        <label><input type="radio" name="p17" value="b"> b) Desarrollo normal seguido de pérdida repentina de habilidades</label><br>
+        <label><input type="radio" name="p17" value="c"> c) Habilidades motoras sobresalientes</label><br>
+        <label><input type="radio" name="p17" value="d"> d) Comunicación completamente típica</label><br><br>
+
+        <button type="submit" style="
+            padding: 10px 20px; 
+            background:#78A2D2; 
+            border:none; 
+            color:white; 
+            font-size:18px; 
+            cursor:pointer;
+            border-radius:8px;">
+            Enviar respuestas
+        </button>
+
+    </form>
+</div>
+
+
+<script>
+function mostrar(tab) {
+    document.getElementById("aprendizaje").style.display = "none";
+    document.getElementById("autismo").style.display = "none";
+    document.getElementById(tab).style.display = "block";
+}
+
+function mostrarSubtema(id) {
+    const subtemas = document.querySelectorAll(".subtema-contenido");
+    subtemas.forEach(st => st.style.display = "none");
+
+    document.getElementById(id).style.display = "block";
+}
+</script>
+
+</body>
+</html>
